@@ -1,0 +1,19 @@
+package Actions;
+import Banco.Cuenta;
+
+public class IngresarDineroAction implements Action {
+
+		Cuenta cuenta;
+		double ingreso;
+		
+		public IngresarDineroAction(Cuenta cuenta,double ingreso){
+			this.cuenta=cuenta;
+			this.ingreso=ingreso;
+		}
+
+		public Object execute() {
+			cuenta.setSaldo(cuenta.getSaldo()+ingreso);
+			return cuenta;
+		}
+		
+}

@@ -1,0 +1,20 @@
+INDEX VERSION 1.127+E:\Estudios\DAM\Entornos\2014-2015\Tercer Trimestre\Refactoring\Potencia\.metadata\.plugins\org.eclipse.jdt.core
+1717155851.index
+2150597636.index
+2353808801.index
+3053868806.index
+904014828.index
+2140066965.index
+35806757.index
+251011881.index
+3283188877.index
+883937192.index
+4153940284.index
+1070772735.index
+2211305873.index
+2218044037.index
+1398329228.index
+1568590738.index
+3760506758.index
+556725958.index
+4143700773.index

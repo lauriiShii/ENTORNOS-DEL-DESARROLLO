@@ -1,0 +1,6 @@
+package Constantes;
+
+public class Constante {
+
+	public static final String FICHERO_CONFIGURACION = "\"configuracion/configuracion.properties\"";
+}

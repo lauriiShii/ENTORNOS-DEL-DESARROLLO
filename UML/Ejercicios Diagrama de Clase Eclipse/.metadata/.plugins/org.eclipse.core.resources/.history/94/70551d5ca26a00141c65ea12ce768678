@@ -1,0 +1,73 @@
+
+public class Rectangulo {
+
+
+
+	private float base;
+	private float altura;
+	
+	public Rectangulo(float base, float altura){
+		this.base = base;
+		this.altura= altura;
+		
+	}
+	
+	public Rectangulo(){
+		this.base = 1;
+		this.altura = 1;
+	}
+	
+	public float obtenerArea(){
+		return base  * altura;
+	}
+	
+	public float obtenerPerimetro(){
+		return 2*base+2*altura;
+	}
+	
+	public float obtenerDiagonal(){
+		double miFloat = base*base+altura*altura;
+		return  (float) Math.sqrt(miFloat);
+	}
+	
+	
+	public float getBase() {
+		return base;
+	}
+
+	public void setBase(float base) {
+		this.base = base;
+	}
+
+	public float getAltura() {
+		return altura;
+	}
+
+	public void setAltura(float altura) {
+		this.altura = altura;
+	}
+	
+	
+	static public void main(String args[]){
+		
+		Rectangulo rectangulo1 = new Rectangulo(3,4);
+		Rectangulo rectangulo2 = new Rectangulo(4,6);
+		
+				
+		System.out.println("Area rectangulo 1:"+rectangulo1.obtenerArea());
+		System.out.println("Area rectangulo 2: "+rectangulo2.obtenerArea());
+		System.out.println("Perímetro rectangulo 1: "+rectangulo1.obtenerPerimetro());
+		System.out.println("Perímetro rectangulo 2:"+rectangulo2.obtenerPerimetro());
+		System.out.println("Diagonal rectangulo 1:"+rectangulo1.obtenerDiagonal());
+		System.out.println("Diagonal rectangulo 2:"+rectangulo2.obtenerDiagonal());
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

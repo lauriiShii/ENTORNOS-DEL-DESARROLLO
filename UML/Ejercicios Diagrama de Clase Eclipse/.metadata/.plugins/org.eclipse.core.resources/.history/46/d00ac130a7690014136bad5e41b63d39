@@ -1,0 +1,55 @@
+
+public class Rectangulo {
+	
+	//ATRIBUTOS
+	private int lado1;
+	private int lado2;
+	
+	//CONSTRUCTOR
+	public  Rectangulo(){
+		System.out.println("Ha nacido un Triangulooooo ...");
+		lado1 = 3;
+		lado2 = 5;
+	}
+	
+	//METODOS
+	public int getLado1() {
+		return lado1;
+	}
+	
+	public void setLado1(int lado1) {
+		this.lado1 = lado1;
+	}
+
+	public int getLado2() {
+		return lado2;
+	}
+
+	public void setLado2(int lado2) {
+		this.lado2 = lado2;
+	}
+	
+	//Metodo para calcular diagonal
+	public void diagonal() {
+		
+	}
+
+
+
+	static public void main(String args[]){
+		
+		//Creamos objetos
+		Rectangulo rectangulo1 = new Rectangulo();
+		Rectangulo rectangulo2 = new Rectangulo();
+		
+		//Le damos altura y base a los rectangulos
+		rectangulo1.setLado1(3);
+		rectangulo1.setLado2(4);
+		
+		rectangulo2.setLado1(3);
+		rectangulo2.setLado2(4);
+		
+		//Llamamos a los metodos
+		
+	}
+}

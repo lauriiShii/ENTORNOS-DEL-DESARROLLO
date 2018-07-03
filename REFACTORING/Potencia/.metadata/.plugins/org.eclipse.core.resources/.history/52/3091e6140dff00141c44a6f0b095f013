@@ -1,0 +1,6 @@
+
+public interface Multiplicable {
+
+	public abstract int multiplicar(){
+	}
+}

@@ -1,0 +1,6 @@
+package Accion;
+
+public interface Accion {
+
+	public abstract Object execute();
+}
